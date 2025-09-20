@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken",
+    "ingredients": ["quantity", "ingredientName"],
+    "steps": []
+  },
+  {
+    "id": 2,
+    "name": "Paneer",
+    "ingredients": ["quantity", "ingredientName"],
+    "steps": []
+  }
+]
