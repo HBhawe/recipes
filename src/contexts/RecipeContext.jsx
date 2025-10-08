@@ -15,21 +15,38 @@ function reducer(state, action) {
 	switch (action.type) {
 		case "changeSelection":
 			return { ...state, currentSelection: action.payload };
+
+		case "selectRecipe": {
+			const recipe = state.recipes.find((el) => el.id === action.payload);
+			return { ...state, currentRecipe: recipe };
+		}
 	}
 }
 
 const RecipeProvider = ({ children }) => {
-	const [{ recipes, currentSelection }, dispatch] = useReducer(
+	const [{ recipes, currentSelection, currentRecipe }, dispatch] = useReducer(
 		reducer,
 		initialState,
 	);
 
-	const changeRecipe = function (cuisine) {
+	const changeRecipeList = function (cuisine) {
 		dispatch({ type: "changeSelection", payload: cuisine });
 	};
 
+	function selectRecipe(id) {
+		dispatch({ type: "selectRecipe", payload: id });
+	}
+
 	return (
-		<RecipeContext.Provider value={{ recipes }}>
+		<RecipeContext.Provider
+			value={{
+				recipes,
+				selectRecipe,
+				currentSelection,
+				currentRecipe,
+				changeRecipeList,
+			}}
+		>
 			{children}
 		</RecipeContext.Provider>
 	);
