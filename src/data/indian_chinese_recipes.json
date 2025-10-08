@@ -1,0 +1,86 @@
+[
+	{
+		"id": 1,
+		"name": "Manchurian sauce",
+		"ingredients": [
+			{
+				"ingredient": "oil",
+				"quantity": 1.5,
+				"unit": "tbsp"
+			},
+			{
+				"ingredient": "chopped garlic",
+				"quantity": 1,
+				"unit": "tbsp"
+			},
+			{
+				"ingredient": "chopped ginger",
+				"quantity": 1,
+				"unit": "tbsp"
+			},
+			{
+				"ingredient": "chopped green chillies",
+				"quantity": 1,
+				"unit": "tbsp"
+			},
+			{
+				"ingredient": "chopped coriander",
+				"quantity": 1,
+				"unit": "tbsp"
+			},
+			{
+				"ingredient": "chicken stock/water",
+				"quantity": 1,
+				"unit": "cup"
+			},
+			{
+				"ingredient": "soya sauce",
+				"quantity": "1-2",
+				"unit": "tbsp"
+			},
+			{
+				"ingredient": "ginger sherry",
+				"quantity": 1,
+				"unit": "tsp"
+			},
+			{
+				"ingredient": "salt",
+				"quantity": 0.25,
+				"unit": "tsp"
+			},
+			{
+				"ingredient": "sugar",
+				"quantity": 0.25,
+				"unit": "tsp"
+			},
+			{
+				"ingredient": "pepper",
+				"quantity": 0.25,
+				"unit": "tsp"
+			},
+			{
+				"ingredient": "MSG/aji no moto",
+				"quantity": 0.25,
+				"unit": "tsp"
+			},
+			{
+				"ingredient": "cornflour",
+				"quantity": 3,
+				"unit": "tsp"
+			}
+		],
+		"steps": [
+			"In a pan, heat oil",
+			"Lightly fry garlic and ginger",
+			"Add in the green chillies and coriander leaves",
+			"Reduce hear and add water or chicken stock, sauces, and seasonings",
+			"Cook for a minute",
+			"Mix cornflour with water",
+			"Reduce heat and add it to the sauce",
+			"Mix and remove from heat"
+		],
+		"variations": [
+			"1/4 kd boneless meat or fish pieces mixed with egg and batter fried can be used "
+		]
+	}
+]
