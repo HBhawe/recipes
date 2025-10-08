@@ -1,60 +1,60 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "array",
-  "items": [
-    {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer"
-        },
-        "name": {
-          "type": "string"
-        },
-        "parts": {
-          "type": "array",
-          "items": [
-            {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string"
-                },
-                "ingredients": {
-                  "type": "array",
-                  "items": [
-                    {
-                      "type": "object",
-                      "properties": {
-                        "quantity": {
-                          "type": "integer"
-                        },
-                        "ingredient": {
-                          "type": "string"
-                        },
-                        "unit": {
-                          "type": "string"
-                        }
-                      },
-                      "required": ["quantity", "ingredient", "unit"]
-                    }
-                  ]
-                },
-                "steps": {
-                  "type": "array",
-                  "items": [
-                    {
-                      "type": "string"
-                    }
-                  ]
-                }
-              },
-              "required": ["name", "ingredients", "steps"]
-            }
-          ]
-        }
-      },
-      "required": ["id", "name", "parts"]
-    }
-  ]
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "array",
+	"items": [
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "integer"
+				},
+				"name": {
+					"type": "string"
+				},
+				"parts": {
+					"type": "array",
+					"items": [
+						{
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"ingredients": {
+									"type": "array",
+									"items": [
+										{
+											"type": "object",
+											"properties": {
+												"quantity": {
+													"type": "integer"
+												},
+												"ingredient": {
+													"type": "string"
+												},
+												"unit": {
+													"type": "string"
+												}
+											},
+											"required": ["quantity", "ingredient", "unit"]
+										}
+									]
+								},
+								"steps": {
+									"type": "array",
+									"items": [
+										{
+											"type": "string"
+										}
+									]
+								}
+							},
+							"required": ["name", "ingredients", "steps"]
+						}
+					]
+				}
+			},
+			"required": ["id", "name", "parts"]
+		}
+	]
 }
