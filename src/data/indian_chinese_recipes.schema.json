@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "name": { "type": "string" },
+      "ingredients": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/ingredient" }
+      },
+      "steps": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "variations": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "required": ["id", "name", "ingredients", "steps"]
+  },
+  "definitions": {
+    "ingredient": {
+      "type": "object",
+      "properties": {
+        "ingredient": { "type": "string" },
+        "quantity": { "type": ["number", "string"] },
+        "unit": { "type": "string" }
+      },
+      "required": ["ingredient", "quantity"]
+    }
+  }
+}
