@@ -1,59 +1,59 @@
 [
-	{
-		"id": 1,
-		"name": "Frankie",
-		"parts": [
-			{
-				"name": "Dough",
-				"ingredients": [
-					{
-						"quantity": 3,
-						"ingredient": "flour",
-						"unit": "cups"
-					},
-					{
-						"quantity": 1.5,
-						"ingredient": "curd",
-						"unit": "cups"
-					},
-					{
-						"quantity": 0.25,
-						"ingredient": "wheat flour",
-						"unit": "cup"
-					},
-					{
-						"quantity": 1,
-						"ingredient": "salt",
-						"unit": "tsp"
-					},
-					{
-						"quantity": 3,
-						"ingredient": "oil",
-						"unit": "tsp"
-					},
-					{
-						"quantity": 1,
-						"ingredient": "egg"
-					}
-				],
-				"steps": [
-					"Sieve flour and wheat flour together",
-					"Add salt, oil, and egg",
-					"Knead with curd to a soft dough",
-					"Keep it in an airtight container for 5-6 hours outside the refrigerator"
-				]
-			},
-			{
-				"name": "Filling",
-				"ingredients": [
-					{
-						"quantity": "800",
-						"ingredient": "chicken",
-						"unit": "g"
-					}
-				],
-				"steps": []
-			}
-		]
-	}
+  {
+    "id": 1,
+    "name": "Frankie",
+    "parts": [
+      {
+        "name": "Dough",
+        "ingredients": [
+          {
+            "quantity": 3,
+            "ingredient": "flour",
+            "unit": "cups"
+          },
+          {
+            "quantity": 1.5,
+            "ingredient": "curd",
+            "unit": "cups"
+          },
+          {
+            "quantity": 0.25,
+            "ingredient": "wheat flour",
+            "unit": "cup"
+          },
+          {
+            "quantity": 1,
+            "ingredient": "salt",
+            "unit": "tsp"
+          },
+          {
+            "quantity": 3,
+            "ingredient": "oil",
+            "unit": "tsp"
+          },
+          {
+            "quantity": 1,
+            "ingredient": "egg"
+          }
+        ],
+        "steps": [
+          "Sieve flour and wheat flour together",
+          "Add salt, oil, and egg",
+          "Knead with curd to a soft dough",
+          "Keep it in an airtight container for 5-6 hours outside the refrigerator"
+        ]
+      },
+      {
+        "name": "Filling",
+        "ingredients": [
+          {
+            "quantity": "800",
+            "ingredient": "chicken",
+            "unit": "g"
+          }
+        ],
+        "steps": []
+      }
+    ]
+  }
 ]
